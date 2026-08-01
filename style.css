@@ -1,0 +1,149 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+h1{
+    text-align: center;
+    margin: 40px;
+    font-size: 50px;
+    font-style: italic;
+    text-wrap-style: auto;
+}
+
+.color-btns {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.blue {
+  background-color: #3498db;
+  color: white;
+}
+
+/* Green Background */
+.green {
+    background-color: #2ecc71; /* A pleasant, vibrant green */
+    color: white;              /* Makes text readable on dark background */
+}
+
+/* Red Background */
+.red {
+    background-color: #e74c3c; /* Modern crimson red */
+    color: white;
+}
+
+/* Yellow Background */
+.yellow {
+    background-color: #f1c40f; /* Warm sunflower yellow */
+    color: #2c3e50;            /* Dark text for good contrast */
+}
+
+/* White Background */
+.white {
+    background-color: #ffffff; /* Clean pure white */
+    color: #333333;            /* Dark grey text */
+}
+
+/* Black Background */
+.black {
+    background-color: #1a1a1a; /* Soft dark black (easier on eyes than #000) */
+    color: #ffffff;            /* White text */
+}
+
+/* Brown Background */
+.brown {
+    background-color: #784212; /* Rich chocolate brown */
+    color: white;
+}
+
+/* Orange Background */
+.orange {
+    background-color: #e67e22; /* Bright energetic orange */
+    color: white;
+}
+
+
+button {
+  width: 100px;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1.5px solid black;
+}
+
+/* Blue Button */
+.blue-btn {
+  color: white;
+  background-color: #3498db; /* Clean modern blue */
+  cursor: pointer;
+}
+
+/* Green Button */
+.green-btn {
+  color: white;
+  background-color: #2ecc71; /* Pleasant vibrant green */
+  cursor: pointer;
+}
+
+/* Red Button */
+.red-btn {
+  color: white;
+  background-color: #e74c3c; /* Modern crimson red */
+  cursor: pointer;
+}
+
+/* Yellow Button */
+.yellow-btn {
+  color: #2c3e50;            /* Dark slate text for high contrast */
+  background-color: #f1c40f; /* Warm sunflower yellow */
+  cursor: pointer;
+}
+
+/* White Button */
+.white-btn {
+  color: #333333;            /* Dark grey text instead of harsh black */
+  background-color: #ffffff; /* Clean pure white */
+  cursor: pointer;
+}
+
+/* Black Button */
+.black-btn {
+  color: white;
+  background-color: #1a1a1a; /* Soft dark black (easier on the eyes) */
+  cursor: pointer;
+}
+
+/* Brown Button */
+.brown-btn {
+  color: white;
+  background-color: #784212; /* Rich chocolate brown */
+  cursor: pointer;
+}
+
+/* Orange Button */
+.orange-btn {
+  color: white;
+  background-color: #e67e22; /* Bright energetic orange */
+  cursor: pointer;
+}
+
+
+
+/* Queries */
+
+@media all and (max-width: 950px) {
+    .color-btns{
+        flex-direction: column;
+        gap: 27px;
+    }
+    h1{
+        font-size: 30px;
+    }
+}
+
